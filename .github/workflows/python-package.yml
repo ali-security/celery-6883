@@ -30,6 +30,7 @@ jobs:
     - name: Install apt packages
       run: |
         sudo apt update
+        sudo apt-get remove libmemcached11
         sudo apt-get install -f libhashkit-dev libcurl4-openssl-dev libssl-dev gnutls-dev httping expect libmemcached-dev
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}

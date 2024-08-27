@@ -78,7 +78,7 @@ Important Notes
 
     .. code-block:: console
 
-        $ pip install -U python-dateutil==1.5.0
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' -U python-dateutil==1.5.0
 
     or by ``easy_install``:
 

@@ -32,7 +32,7 @@ jobs:
         sudo apt update && sudo apt-get install -f libcurl4-openssl-dev libssl-dev gnutls-dev httping expect libmemcached-dev
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+      uses: MatteoH2O1999/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
 
@@ -50,7 +50,7 @@ jobs:
           ${{ matrix.python-version }}-v1-
 
     - name: Install tox
-      run: python -m pip install tox
+      run: python -m pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' tox
     - name: >
         Run tox for
         "${{ matrix.python-version }}-unit"
@@ -69,10 +69,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
+    - uses: MatteoH2O1999/setup-python@v4
       # Must match the Python version in tox.ini for flake8
       with: { python-version: 3.9 }
     - name: Install tox
-      run: python -m pip install tox
+      run: python -m pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' tox
     - name: Lint with flake8
       run: tox --verbose -e flake8

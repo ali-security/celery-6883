@@ -60,7 +60,7 @@ in this example:
 
     from celery.exceptions import Retry
 
-    # for python 2: use mock.patch from `pip install mock`.
+    # for python 2: use mock.patch from `pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' mock`.
     from unittest.mock import patch
 
     from proj.models import Product
@@ -106,8 +106,8 @@ Enabling
 
 Celery initially ships the plugin in a disabled state, to enable it you can either:
 
-    * ``pip install celery[pytest]``
-    * ``pip install pytest-celery``
+    * ``pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[pytest]``
+    * ``pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' pytest-celery``
     * or add an environment variable ``PYTEST_PLUGINS=celery.contrib.pytest``
     * or add ``pytest_plugins = ("celery.contrib.pytest", )`` to your root conftest.py
 

@@ -513,7 +513,7 @@ Celery can compress messages using the following builtin schemes:
 
     .. code-block:: console
 
-      $ pip install celery[brotli]
+      $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[brotli]
 
 - `bzip2`
 
@@ -578,7 +578,7 @@ Celery can compress messages using the following builtin schemes:
 
     .. code-block:: console
 
-      $ pip install celery[lzma]
+      $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[lzma]
 
 - `zlib`
 
@@ -612,7 +612,7 @@ Celery can compress messages using the following builtin schemes:
 
     .. code-block:: console
 
-      $ pip install celery[zstd]
+      $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[zstd]
 
 You can also create your own compression schemes and register
 them in the :func:`kombu compression registry <kombu.compression.register>`.

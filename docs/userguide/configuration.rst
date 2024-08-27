@@ -460,7 +460,7 @@ This requires the :pypi:`tblib` library, that can be installed using
 
 .. code-block:: console
 
-    $ pip install celery[tblib]
+    $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[tblib]
 
 See :ref:`bundles` for information on combining multiple extension
 requirements.
@@ -1120,7 +1120,7 @@ Configuring the backend URL
 
     .. code-block:: console
 
-        $ pip install celery[redis]
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[redis]
 
     See :ref:`bundles` for information on combining multiple extension
     requirements.
@@ -1302,7 +1302,7 @@ Cassandra backend settings
 
     .. code-block:: console
 
-        $ pip install celery[cassandra]
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[cassandra]
 
     See :ref:`bundles` for information on combining multiple extension
     requirements.
@@ -1448,7 +1448,7 @@ S3 backend settings
 
     .. code-block:: console
 
-        $ pip install celery[s3]
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[s3]
 
     See :ref:`bundles` for information on combining multiple extension
     requirements.
@@ -1664,7 +1664,7 @@ AWS DynamoDB backend settings
 
     .. code-block:: console
 
-        $ pip install celery[dynamodb]
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[dynamodb]
 
     See :ref:`bundles` for information on combining multiple extension
     requirements.
@@ -1757,7 +1757,7 @@ IronCache backend settings
 
     .. code-block:: console
 
-        $ pip install iron_celery
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' iron_celery
 
 IronCache is configured via the URL provided in :setting:`result_backend`, for example::
 
@@ -1782,7 +1782,7 @@ Couchbase backend settings
 
     .. code-block:: console
 
-        $ pip install celery[couchbase]
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[couchbase]
 
     See :ref:`bundles` for instructions how to combine multiple extension
     requirements.
@@ -1837,7 +1837,7 @@ ArangoDB backend settings
 
     .. code-block:: console
 
-        $ pip install celery[arangodb]
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[arangodb]
 
     See :ref:`bundles` for instructions how to combine multiple extension
     requirements.
@@ -1959,7 +1959,7 @@ CouchDB backend settings
 
     .. code-block:: console
 
-        $ pip install celery[couchdb]
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' celery[couchdb]
 
     See :ref:`bundles` for information on combining multiple extension
     requirements.

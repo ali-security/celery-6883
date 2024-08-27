@@ -235,7 +235,7 @@ Contributed by **Omer Katz & Asif Saifuddin Auvi**
 
     Contributed by **George Psarakis**.
 
-- **Testing**: Added caching on pip installs.
+- **Testing**: Added caching on pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/'s.
 
     Contributed by :github_user:`orf`.
 

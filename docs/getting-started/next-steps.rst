@@ -771,7 +771,7 @@ module, an AMQP client implemented in C:
 
 .. code-block:: console
 
-    $ pip install librabbitmq
+    $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' librabbitmq
 
 What to do now?
 ===============

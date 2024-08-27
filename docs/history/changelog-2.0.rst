@@ -965,7 +965,7 @@ News
 
     .. code-block:: console
 
-        $ pip install -r requirements/test.txt
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' -r requirements/test.txt
 
     Running all tests:
 

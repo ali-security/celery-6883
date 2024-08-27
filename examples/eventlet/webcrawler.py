@@ -2,7 +2,7 @@
 
 For asynchronous DNS lookups install the `dnspython` package:
 
-    $ pip install dnspython
+    $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' dnspython
 
 Requires the `pybloom` module for the bloom filter which is used
 to ensure a lower chance of recrawling a URL previously seen.

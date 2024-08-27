@@ -1355,7 +1355,7 @@ If you're looking for versions prior to 3.0.x you should go to :ref:`history`.
 
         .. code-block:: console
 
-            $ pip install amqp
+            $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' amqp
 
     - Then you need to set the transport URL prefix to ``pyamqp://``.
 

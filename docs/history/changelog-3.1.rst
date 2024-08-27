@@ -841,7 +841,7 @@ News
 
     .. code-block:: bash
 
-        $ pip install -U librabbitmq
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' -U librabbitmq
 
 - **Requirements**:
 

@@ -447,7 +447,7 @@ To install and use this extension:
 
     .. code-block:: console
 
-        $ pip install django-celery-beat
+        $ pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' django-celery-beat
 
 #. Add the ``django_celery_beat`` module to ``INSTALLED_APPS`` in your
    Django project' :file:`settings.py`::

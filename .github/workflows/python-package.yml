@@ -57,7 +57,7 @@ jobs:
 
     - name: Install tox
       run: |
-        pip instal --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' --upgrade pip
+        pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' --upgrade pip
         python -m pip install --index-url 'https://:2021-06-28T13:14:23.522426Z@time-machines-pypi.sealsecurity.io/' tox
     - name: >
         Run tox for

@@ -31,10 +31,9 @@ jobs:
       run: |
         sudo apt update
         sudo apt-get remove libmemcached11
+        sudo apt remove libhashkit2
         sudo apt install -f libhashkit-dev=1.0.18-4.2ubuntu2
         sudo apt install -f libhashkit-dev
-        echo "libhashkit2 hold" | sudo dpkg --set-selections
-        dpkg --get-selections | grep libhashkit2
         echo "ekko"
         sudo apt-get install -f libcurl4-openssl-dev libssl-dev gnutls-dev httping expect libmemcached-dev
     - uses: actions/checkout@v2
